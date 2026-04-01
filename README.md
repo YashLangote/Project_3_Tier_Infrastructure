@@ -40,14 +40,14 @@ The infrastructure is distributed across two Availability Zones for high availab
 
 # Deployment Steps
 
-1. Clone the repository: git clone <your-repo-url>
+1. **Clone the repository:** git clone <your-repo-url>
 
-2. Navigate to the production environment: cd environments/prod
+2. **Navigate to the production environment:** cd environments/prod
 
-3. Initialize Terraform: terraform init
+3. **Initialize Terraform:** terraform init
 
-4. Review the execution plan: terraform plan
+4. **Review the execution plan:** terraform plan
 
-5. Provision the infrastructure: terraform apply --auto-approve
+5. **Provision the infrastructure:** terraform apply --auto-approve
 
-6. Access the application: Copy the web_server_public_ips from the output and paste it into your browser to test the full 3-tier data flow.
+6. **Access the application:** Copy the web_server_public_ips from the output and paste it into your browser to test the full 3-tier data flow.
